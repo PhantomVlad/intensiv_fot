@@ -1,0 +1,95 @@
+.header {
+  position: fixed;
+  width: 100%;
+  background: black;
+  top: 0;
+  opacity: 80%;
+  border-radius: 0 0 20% 20%;
+  color:grey;
+}
+
+.container {
+  padding-left:50px;
+  max-width: 1600px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom:10px;
+}
+
+.logo-header {
+  float:left;
+  display: inline;
+  width: 60px;
+  margin-top:10px;
+  height: 60px;
+}
+
+.menu {
+  float:right;
+  vertical-align: baseline;
+  line-height: 60px;
+  font-size:16px;
+}
+
+.menu-item {
+  list-style: none;
+  margin-right:5vh;
+  margin-top:10px;
+  margin-bottom:10px;
+  margin-left:5vh;
+  display: inline-block;
+  font-size:25px;
+}
+
+.menu-item-text {
+  text-decoration: none;
+  color: white;
+  font-weight: 800;
+}
+
+.menu-item-text:hover {
+  color: grey;
+}
+
+@media (max-width: 770px) {
+  .header {
+    position: inherit;
+    width: auto;
+    top: auto;
+    opacity: 100%;
+    background: black;
+  }
+
+  .logo-header {
+    float:none;
+    text-align: center;
+    width: 100%;
+  }
+
+  .container {
+    padding-left:5px;
+    width:150px;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+  }
+
+  .menu {
+    width:150px;
+    float:none;
+    margin-right: auto;
+    margin-left: auto;
+    line-height: 50px;
+  }
+
+  .menu-item {
+    margin:0px;
+  }
+}
+
+@media (max-width: 360px) {
+  .menu {
+    display: block;
+  }
+}
+
