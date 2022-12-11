@@ -6,6 +6,7 @@
   opacity: 80%;
   border-radius: 0 0 20% 20%;
   color:grey;
+  z-index: 4;
 }
 
 .container {

@@ -4,12 +4,14 @@
 }
 
 html {
+  position: relative;
   background-color: rgba(0, 0, 0, 0);
   background-image: url("../images/backimage.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: scroll, fixed;
   background-position: 0 0%, center top;
+  z-index: 1;
 }
 
 body {
@@ -24,6 +26,7 @@ body {
 }
 
 .container-content {
+  position: relative;
   width: 90%;
   margin-left:auto;
   margin-right:auto;
@@ -33,6 +36,7 @@ body {
   border:2px solid black;
   border-radius: 5%;
   padding-bottom: 25px;
+  z-index: 2;
 }
 
 .topic {
@@ -56,10 +60,12 @@ body {
 }
 
 .text-content {
+  position: relative;
   margin-right:auto;
   margin-left:auto;
   width: 90%;
   height: auto;
+  z-index: 3;
 }
 
 .indent {
