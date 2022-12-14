@@ -27,6 +27,7 @@
   background-repeat: no-repeat;
   background-attachment: scroll, fixed;
   background-position: 0 0%, center top;
+  background-attachment: fixed;
 }
 
 .name-tariff {
@@ -103,3 +104,8 @@
     margin:auto;
   }
 }
+
+@media (max-width: 555px) {
+  .container-tariffs {
+    width: 80%;
+  }
